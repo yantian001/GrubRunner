@@ -45,7 +45,7 @@ function admob_showBanner(location)
 	//window.admob.hideBanner();
 	//alert(location);
 	//hideBanner();
-	window.admob.showBannerAd(location, 'BANNER');
+	window.admob.showBannerAd(location, 'SMART_BANNER');
 }
 
 function intersitialPreloaded () {

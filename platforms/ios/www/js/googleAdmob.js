@@ -6,15 +6,15 @@ var mobid ={};
 if (/(android)/i.test(navigator.userAgent)) {
 	//alert('android');
 mobid={
-	bannerAdUnit:"ca-app-pub-4639863322045897/3773818369",
-	intersititalAdUnit:"ca-app-pub-4639863322045897/5250551569"
+	bannerAdUnit:"ca-app-pub-1395662679269229/8971085591",
+	intersititalAdUnit:"ca-app-pub-1395662679269229/1447818792"
   };
 }
 else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
 //  alert('iOS');
 mobid={
-		bannerAdUnit:"ca-app-pub-4639863322045897/3156539565",
-		intersititalAdUnit:"ca-app-pub-4639863322045897/4633272767"
+		bannerAdUnit:"ca-app-pub-1395662679269229/4401285190",
+		intersititalAdUnit:"ca-app-pub-1395662679269229/5878018393"
   };
 }
 
@@ -45,7 +45,7 @@ function admob_showBanner(location)
 	//window.admob.hideBanner();
 	//alert(location);
 	//hideBanner();
-	window.admob.showBannerAd(location, 'BANNER');
+	window.admob.showBannerAd(location, 'SMART_BANNER');
 }
 
 function intersitialPreloaded () {
