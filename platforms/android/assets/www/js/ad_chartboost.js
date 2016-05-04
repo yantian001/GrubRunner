@@ -3,15 +3,15 @@ var cbid ={};
 if (/(android)/i.test(navigator.userAgent)) {
 //  alert('android');
   cbid={
-    appid:"5725ca42f6cd4551c95161af",
-    appSignature:"4ff0d7c5b43830b2f9952d30682c3f7995cbb4e5"
+    appid:"5728c08404b0161c4f1a7cc7",
+    appSignature:"3cb08aa1c0f680d10fd6b72062abafa493694f0e"
   };
 }
 else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
 //  alert('iOS');
   cbid={
-    appid:"5725ca5d43150f499998a39f",
-    appSignature:"2508f988b807c2f2ab07ec72516df83b65a1d446"
+    appid:"5728bfaa43150f208255d8a5",
+    appSignature:"66b035a9332dd34529a815054407a34946df6132"
   };
 }
 
